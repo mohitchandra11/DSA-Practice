@@ -34,7 +34,7 @@ This repository serves as a learning log for my journey to master DSA. It includ
 ---
 
 
-##Technologies Used
+## **3. Technologies Used**
 --Programming Language: C++
 --Compiler: GCC or any standard C++ compiler
 --IDE/Editor: VS Code, Code::Blocks, or any text editor that supports C++ development
