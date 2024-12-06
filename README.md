@@ -7,10 +7,7 @@ Welcome to my Data Structures and Algorithms (DSA) practice repository! This rep
 ## Table of Contents
 - [About](#about)
 - [Topics Covered](#topics-covered)
-- [How to Use](#how-to-use)
 - [Technologies Used](#technologies-used)
-- [Future Plans](#future-plans)
-- [Contributing](#contributing)
 
 ---
 
@@ -36,7 +33,12 @@ This repository serves as a learning log for my journey to master DSA. It includ
 
 ---
 
-## How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/DSA-Practice.git
+
+##Technologies Used
+--Programming Language: C++
+--Compiler: GCC or any standard C++ compiler
+--IDE/Editor: VS Code, Code::Blocks, or any text editor that supports C++ development
+
+
+Thank you for visiting my repository!
+
