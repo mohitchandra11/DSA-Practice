@@ -1,3 +1,4 @@
+//program to convert a binary number into decimal number
 #include<iostream>
 using namespace std;
 
@@ -15,7 +16,7 @@ int BinToDec(int BinNum){
 int main(){
 
 int BinNum;
-    cout<<"Enter a binary number which you want to convert in decimal"<<endl;
+    cout<<"Enter a binary number which you want to convert into decimal"<<endl;
     cin>>BinNum;
     cout<<"The decimal number of "<<BinNum << " is " << BinToDec(BinNum)<<endl;
     return 0;

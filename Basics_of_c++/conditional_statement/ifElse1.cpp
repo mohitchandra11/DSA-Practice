@@ -1,3 +1,4 @@
+//program to find given no : odd or even 
 #include<iostream>
 using namespace std;
 

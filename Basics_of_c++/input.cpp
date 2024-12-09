@@ -1,3 +1,4 @@
+//c++ code to take input.
 #include<iostream>
 using namespace std;
 

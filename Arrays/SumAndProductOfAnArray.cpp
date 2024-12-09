@@ -1,3 +1,4 @@
+// Program to calculate the sum and product of all elements in an array
 #include<iostream>
 using namespace std;
 

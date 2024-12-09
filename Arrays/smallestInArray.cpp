@@ -1,32 +1,31 @@
-#include<iostream>
-#include<climits>
+// Program to find the smallest element in an array and its index
+#include <iostream>
+#include <climits>
 using namespace std;
 
-
-int main(){
-    int index;//to printing index.
+int main() {
+    int index = -1; // Initialize to an invalid value for safety.
     int n;
-    int smallest= INT_MAX;
-    cout<<"Enter size of the array"<<endl;
-    cin>>n;
+    int smallest = INT_MAX;
+
+    cout << "Enter size of the array: ";
+    cin >> n;
+
     int arr[n];
-    cout<<"Enter array elements"<<endl;
-    for( int i=0;i<=n-1;i++){
-        cin>>arr[i];
+    cout << "Enter array elements:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
     }
-    /*cout<<"array elements are"<<endl;
-    for(int i=0;i<=n-1;i++){
-cout<<arr[i]<<endl;}*/
-    for(int j=0;j<=n-1;j++){
-       if(arr[j]<smallest){
-        smallest=arr[j];
-       }
-       if(smallest==arr[j]){
-        index=j;
-       }
-      
+
+    for (int j = 0; j < n; j++) {
+        if (arr[j] < smallest) {
+            smallest = arr[j];
+            index = j; // Update index when the smallest element is updated.
+        }
     }
-    cout<<"smallest element is : "<< smallest <<endl;
-    cout<<"mininum index is present on index "<<index<<endl;
-return 0;
+
+    cout << "Smallest element is: " << smallest << endl;
+    cout << "Minimum index is present at index: " << index << endl;
+
+    return 0;
 }

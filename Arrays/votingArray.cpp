@@ -1,3 +1,4 @@
+// Program to find all majority elements in an array that appear more than n/3 times
 #include <iostream>
 #include <vector>
 #include <algorithm>

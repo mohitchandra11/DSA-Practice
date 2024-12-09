@@ -1,3 +1,5 @@
+// Program to find and display unique values in an array
+
 #include <iostream>
 using namespace std;
 

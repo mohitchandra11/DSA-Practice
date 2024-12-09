@@ -1,3 +1,5 @@
+// Program to perform Linear Search on an array
+
 #include<iostream>
 using namespace std;
 
