@@ -4,7 +4,7 @@
 using namespace std;
 
 void UniqueValues(int arr[], int size) {
-    bool hasUnique = false; // To check if any unique values exist
+    bool hasUnique = false; // To check if any unique values exist  
 
     for (int i = 0; i < size; i++) {
         bool isUnique = true; // Assume the current element is unique
